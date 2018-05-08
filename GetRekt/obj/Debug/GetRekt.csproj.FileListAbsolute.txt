@@ -1,0 +1,7 @@
+C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\bin\Debug\GetRekt.exe.config
+C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\bin\Debug\GetRekt.exe
+C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\bin\Debug\GetRekt.pdb
+C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\obj\Debug\GetRekt.csprojResolveAssemblyReference.cache
+C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\obj\Debug\GetRekt.csproj.CoreCompileInputs.cache
+C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\obj\Debug\GetRekt.exe
+C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\obj\Debug\GetRekt.pdb
