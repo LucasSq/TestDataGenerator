@@ -18,6 +18,31 @@ namespace GetRekt
             return testDataAsList;
         }
 
+        public List<TestData> GenerateStringDataAsObjectList(int maxlength)
+        {
+            var testDataObjectsAsList = new List<TestData>();
+
+            testDataObjectsAsList.Add(GenerateMaxStringLengthMinusOneAsObject(maxlength));
+
+            return testDataObjectsAsList;
+        }
+
+        public TestData GenerateMaxStringLengthMinusOneAsObject(int maxlength) {
+            TestData testdata = new TestData();
+
+            string maxStringLengthMinusOne = "";
+
+            for (int i = 0; i < maxlength - 1; i++)
+            {
+                maxStringLengthMinusOne += "a";
+            }
+
+            testdata.input = maxStringLengthMinusOne;
+            testdata.expectation = "okidoki";
+                   
+            return testdata;
+        }
+
         public String generateMaxStringLengthMinusOne(int maxlength)
         {
             string maxStringLengthMinusOne = "";

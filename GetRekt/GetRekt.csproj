@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestData.cs" />
     <Compile Include="ExpecationGenerator.cs" />
     <Compile Include="DataGenerator.cs" />
     <Compile Include="DataValidator.cs" />
