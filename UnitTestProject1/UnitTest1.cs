@@ -47,7 +47,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestCheckFieldNaam()
         {
-            TestMaxLength(10, "naam");
+            TestMaxLength(11, "naam");
         }
 
         
