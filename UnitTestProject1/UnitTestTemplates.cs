@@ -22,12 +22,12 @@ namespace UnitTestProject1
                validationResult = datavalidator1.ValidateStringField(testData[count].input);
 
                 if (testData[count].expectation == validationResult.Message) { 
-                    Console.WriteLine("OK || if I fill " + fieldname + " (max length = " + maxlength + ") field with value " + testData[count] + " length = " + testData[count].input.Length + " results in messages: " + testData[count].expectation);
+                    Console.WriteLine("OK" + "\t|| if I fill " + fieldname + " (max length = " + maxlength + ") field with value " + testData[count] + " length = " + testData[count].input.Length + " results in messages: " + testData[count].expectation);
                     count += 1;
                 }
 
                 else {
-                    Console.WriteLine("NOK || if I fill " + fieldname + " (max length = " + maxlength + ") field with value " + testData[count] + " length = " + testData[count].input.Length + " results in messages: " + testData[count].expectation);
+                    Console.WriteLine("NOK" + "\t|| if I fill " + fieldname + " (max length = " + maxlength + ") field with value " + testData[count] + " length = " + testData[count].input.Length + " results in messages: " + testData[count].expectation);
                     count += 1;
                 }
             }
