@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GetRekt\GetRekt.csproj">
+    <ProjectReference Include="..\GetRekt\TestDataGenerator.csproj">
       <Project>{e61fd113-d0ca-454d-b0bb-6ff3dfc5e34f}</Project>
-      <Name>GetRekt</Name>
+      <Name>TestDataGenerator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

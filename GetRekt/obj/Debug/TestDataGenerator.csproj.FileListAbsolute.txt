@@ -1,0 +1,7 @@
+C:\TestDataGenerator\GetRekt\bin\Debug\GetRekt.exe.config
+C:\TestDataGenerator\GetRekt\bin\Debug\GetRekt.exe
+C:\TestDataGenerator\GetRekt\bin\Debug\GetRekt.pdb
+C:\TestDataGenerator\GetRekt\obj\Debug\TestDataGenerator.csprojAssemblyReference.cache
+C:\TestDataGenerator\GetRekt\obj\Debug\TestDataGenerator.csproj.CoreCompileInputs.cache
+C:\TestDataGenerator\GetRekt\obj\Debug\GetRekt.exe
+C:\TestDataGenerator\GetRekt\obj\Debug\GetRekt.pdb
