@@ -5,3 +5,10 @@ C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\obj\Debug\GetRekt.csprojResolve
 C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\obj\Debug\GetRekt.csproj.CoreCompileInputs.cache
 C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\obj\Debug\GetRekt.exe
 C:\Users\xt_lsikkin\source\repos\GetRekt\GetRekt\obj\Debug\GetRekt.pdb
+C:\TestDataGenerator\GetRekt\bin\Debug\GetRekt.exe.config
+C:\TestDataGenerator\GetRekt\bin\Debug\GetRekt.exe
+C:\TestDataGenerator\GetRekt\bin\Debug\GetRekt.pdb
+C:\TestDataGenerator\GetRekt\obj\Debug\GetRekt.csprojAssemblyReference.cache
+C:\TestDataGenerator\GetRekt\obj\Debug\GetRekt.csproj.CoreCompileInputs.cache
+C:\TestDataGenerator\GetRekt\obj\Debug\GetRekt.exe
+C:\TestDataGenerator\GetRekt\obj\Debug\GetRekt.pdb

@@ -9,26 +9,31 @@ namespace GetRekt
     public class DataValidator
     {
         public string message = "";
-        public string validateStringField(String field)
+        public Boolean Ok;
+        public ValidationResult ValidateStringField(String field)
         {
+            ValidationResult validationResult = new ValidationResult();
             int minlength = 2;
             int maxlength = 10;
             
             if (field.Length < minlength)
             {
-                message = "field length too short";
+                validationResult.Message = "field length too short";
+                validationResult.OK = false;
             }
 
             else if (field.Length > maxlength)
             {
-                message = "field length too long";
+                validationResult.Message = "field length too long";
+                validationResult.OK = false;
             }
 
             else
             {
-                message = "okidoki";
+                validationResult.Message = "okidoki";
+                validationResult.OK = true;
             }
-            return message;
+            return validationResult;
         }
     }
 }

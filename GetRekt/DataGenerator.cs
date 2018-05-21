@@ -8,22 +8,13 @@ namespace GetRekt
 {
     public class DataGenerator
     {
-        public List<string> generateStringDataBasedOnLength(int maxlength)
-        {
-            var testDataAsList = new List<string>();
-
-            testDataAsList.Add(generateMaxStringLengthMinusOne(maxlength));
-            testDataAsList.Add(generateMaxStringLengthExact(maxlength));
-            testDataAsList.Add(generateMaxStringLengthPlusOne(maxlength));
-            return testDataAsList;
-        }
-
         public List<TestData> GenerateStringDataAsObjectList(int maxlength)
         {
             var testDataObjectsAsList = new List<TestData>();
 
             testDataObjectsAsList.Add(GenerateMaxStringLengthMinusOneAsObject(maxlength));
-
+            testDataObjectsAsList.Add(GenerateMaxStringLengthExactAsObject(maxlength));
+            testDataObjectsAsList.Add(GenerateMaxStringLengthPlusOneAsObject(maxlength));
             return testDataObjectsAsList;
         }
 
@@ -43,20 +34,10 @@ namespace GetRekt
             return testdata;
         }
 
-        public String generateMaxStringLengthMinusOne(int maxlength)
+        public TestData GenerateMaxStringLengthExactAsObject(int maxlength)
         {
-            string maxStringLengthMinusOne = "";
+            TestData testdata = new TestData();
 
-            for (int i = 0; i < maxlength - 1; i++)
-            {
-                maxStringLengthMinusOne += "a";
-            }
-            
-            return maxStringLengthMinusOne;
-        }
-
-        public String generateMaxStringLengthExact(int maxlength)
-        {
             string maxStringLengthExact = "";
 
             for (int i = 0; i < maxlength; i++)
@@ -64,11 +45,16 @@ namespace GetRekt
                 maxStringLengthExact += "a";
             }
 
-            return maxStringLengthExact;
+            testdata.input = maxStringLengthExact;
+            testdata.expectation = "okidoki";
+
+            return testdata;
         }
 
-        public String generateMaxStringLengthPlusOne(int maxlength)
+        public TestData GenerateMaxStringLengthPlusOneAsObject(int maxlength)
         {
+            TestData testdata = new TestData();
+
             string maxStringLengthPlusOne = "";
 
             for (int i = 0; i < maxlength + 1; i++)
@@ -76,7 +62,10 @@ namespace GetRekt
                 maxStringLengthPlusOne += "a";
             }
 
-            return maxStringLengthPlusOne;
+            testdata.input = maxStringLengthPlusOne;
+            testdata.expectation = "field length too long";
+
+            return testdata;
         }
 
     }
