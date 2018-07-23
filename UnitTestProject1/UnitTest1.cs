@@ -19,7 +19,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestCheckEdgeCasesFieldTelefoonnummer()
         {
-            unitTestTemplates.TestMaxEdgeCases(10, "Telefoonnummer");
+            unitTestTemplates.TestMaxEdgeCases(20, "Telefoonnummer");
         }
 
     }

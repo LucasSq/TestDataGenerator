@@ -10,15 +10,15 @@ namespace TestDataGenerator
     {
         public string message = "";
         public Boolean Ok;
-        public ValidationResult ValidateStringField(String field)
+        public ValidationResult ValidateStringField(String field, String fieldname)
         {
             ValidationResult validationResult = new ValidationResult();
             Constraintslist constraintslist = new Constraintslist();
             Constraints constraints = new Constraints();
-            constraints = constraintslist.constraints.Find(item => item.fieldname == field);
+            constraints = constraintslist.constraints.Find(item => item.fieldname == fieldname);
 
             int minlength = 3;
-            int maxlength = 10;
+            int maxlength = constraints.maxlength;
 
             if (field.Length < minlength)
             {

@@ -20,7 +20,7 @@ namespace UnitTestProject1
 
             foreach (var item in testData)
             {
-               validationResult = datavalidator1.ValidateStringField(testData[count].input);
+                validationResult = datavalidator1.ValidateStringField(testData[count].input, fieldname);
 
                 if (testData[count].expectation == validationResult.Message) { 
                     Console.WriteLine("OK" + "\t|| if I fill " + fieldname + " (max length = " + maxlength + ") field with value " + testData[count] + " length = " + testData[count].input.Length + " results in messages: " + testData[count].expectation);
