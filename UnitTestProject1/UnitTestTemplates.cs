@@ -8,12 +8,13 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTestTemplates
     {
-        public void TestMaxLengthWithTestDataObject(int maxlength, string fieldname)
+        public void TestMaxEdgeCases(int maxlength, string fieldname)
         {
 
             DataValidator datavalidator1 = new DataValidator();
             DataGenerator datagenerator1 = new DataGenerator();
-            List<TestData> testData = datagenerator1.GenerateStringDataAsObjectList(maxlength);
+            List<TestData> testData = datagenerator1.GenerateStringData(maxlength);
+
             ValidationResult validationResult = new ValidationResult();
             int count = 0;
 

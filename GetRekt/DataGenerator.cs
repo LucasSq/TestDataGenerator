@@ -8,17 +8,17 @@ namespace TestDataGenerator
 {
     public class DataGenerator
     {
-        public List<TestData> GenerateStringDataAsObjectList(int maxlength)
+        public List<TestData> GenerateStringData(int maxlength)
         {
             var testDataObjectsAsList = new List<TestData>();
 
-            testDataObjectsAsList.Add(GenerateMaxStringLengthMinusOneAsObject(maxlength));
-            testDataObjectsAsList.Add(GenerateMaxStringLengthExactAsObject(maxlength));
-            testDataObjectsAsList.Add(GenerateMaxStringLengthPlusOneAsObject(maxlength));
+            testDataObjectsAsList.Add(GenerateMaxStringLengthMinusOne(maxlength));
+            testDataObjectsAsList.Add(GenerateMaxStringLengthExact(maxlength));
+            testDataObjectsAsList.Add(GenerateMaxStringLengthPlusOne(maxlength));
             return testDataObjectsAsList;
         }
-
-        public TestData GenerateMaxStringLengthMinusOneAsObject(int maxlength) {
+        
+        public TestData GenerateMaxStringLengthMinusOne(int maxlength) {
             TestData testdata = new TestData();
 
             string maxStringLengthMinusOne = "";
@@ -34,7 +34,7 @@ namespace TestDataGenerator
             return testdata;
         }
 
-        public TestData GenerateMaxStringLengthExactAsObject(int maxlength)
+        public TestData GenerateMaxStringLengthExact(int maxlength)
         {
             TestData testdata = new TestData();
 
@@ -51,7 +51,7 @@ namespace TestDataGenerator
             return testdata;
         }
 
-        public TestData GenerateMaxStringLengthPlusOneAsObject(int maxlength)
+        public TestData GenerateMaxStringLengthPlusOne(int maxlength)
         {
             TestData testdata = new TestData();
 

@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestDataGenerator
 {
-    class Program
+    public class Constraints
     {
-        static void Main(string[] args)
-        {          
-            {
-
-            }
-            Console.ReadLine();
-        }
+        public String fieldname;
+        public int minlength;
+        public int maxlength;
     }
+
 }

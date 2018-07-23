@@ -13,9 +13,13 @@ namespace TestDataGenerator
         public ValidationResult ValidateStringField(String field)
         {
             ValidationResult validationResult = new ValidationResult();
-            int minlength = 2;
+            Constraintslist constraintslist = new Constraintslist();
+            Constraints constraints = new Constraints();
+            constraints = constraintslist.constraints.Find(item => item.fieldname == field);
+
+            int minlength = 3;
             int maxlength = 10;
-            
+
             if (field.Length < minlength)
             {
                 validationResult.Message = "field length too short";

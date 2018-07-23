@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constraints.cs" />
+    <Compile Include="ConstraintsList.cs" />
     <Compile Include="ValidationResult.cs" />
     <Compile Include="TestData.cs" />
     <Compile Include="ExpecationGenerator.cs" />

@@ -11,9 +11,15 @@ namespace UnitTestProject1
         UnitTestTemplates unitTestTemplates = new UnitTestTemplates();
 
         [TestMethod]
-        public void TestCheckFieldNaamWithTestDataAsObjectList()
+        public void TestCheckEdgeCasesFieldNaam()
         {
-            unitTestTemplates.TestMaxLengthWithTestDataObject(11, "naam");
+            unitTestTemplates.TestMaxEdgeCases(10, "Naam");
+        }
+
+        [TestMethod]
+        public void TestCheckEdgeCasesFieldTelefoonnummer()
+        {
+            unitTestTemplates.TestMaxEdgeCases(10, "Telefoonnummer");
         }
 
     }
