@@ -56,6 +56,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp1\AppCode.csproj">
+      <Project>{b6bb7484-e5e6-4a49-b822-ad859a1645d2}</Project>
+      <Name>AppCode</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GetRekt\TestDataGenerator.csproj">
       <Project>{e61fd113-d0ca-454d-b0bb-6ff3dfc5e34f}</Project>
       <Name>TestDataGenerator</Name>

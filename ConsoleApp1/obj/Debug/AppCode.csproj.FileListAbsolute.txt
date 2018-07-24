@@ -1,0 +1,7 @@
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\ConsoleApp1\obj\Debug\AppCode.csprojAssemblyReference.cache
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\ConsoleApp1\obj\Debug\AppCode.csproj.CoreCompileInputs.cache
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\ConsoleApp1\bin\Debug\AppCode.exe.config
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\ConsoleApp1\bin\Debug\AppCode.exe
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\ConsoleApp1\bin\Debug\AppCode.pdb
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\ConsoleApp1\obj\Debug\AppCode.exe
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\ConsoleApp1\obj\Debug\AppCode.pdb

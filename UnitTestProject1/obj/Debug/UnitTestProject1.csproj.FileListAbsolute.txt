@@ -49,3 +49,6 @@ C:\Users\xt_lsikkin\source\repos\TestDataGenerator\UnitTestProject1\obj\Debug\Un
 C:\Users\xt_lsikkin\source\repos\TestDataGenerator\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\xt_lsikkin\source\repos\TestDataGenerator\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
 C:\Users\xt_lsikkin\source\repos\TestDataGenerator\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\UnitTestProject1\bin\Debug\AppCode.exe
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\UnitTestProject1\bin\Debug\AppCode.pdb
+C:\Users\xt_lsikkin\source\repos\TestDataGenerator\UnitTestProject1\bin\Debug\AppCode.exe.config

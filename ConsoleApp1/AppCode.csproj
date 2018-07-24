@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E61FD113-D0CA-454D-B0BB-6FF3DFC5E34F}</ProjectGuid>
+    <ProjectGuid>{B6BB7484-E5E6-4A49-B822-AD859A1645D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GetRekt</RootNamespace>
-    <AssemblyName>GetRekt</AssemblyName>
+    <RootNamespace>AppCode</RootNamespace>
+    <AssemblyName>AppCode</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,20 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestData.cs" />
-    <Compile Include="ExpecationGenerator.cs" />
-    <Compile Include="DataGenerator.cs" />
+    <Compile Include="Constraints.cs" />
+    <Compile Include="ConstraintsList.cs" />
+    <Compile Include="DataValidator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidationResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp1\AppCode.csproj">
-      <Project>{b6bb7484-e5e6-4a49-b822-ad859a1645d2}</Project>
-      <Name>AppCode</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

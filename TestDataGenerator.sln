@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetRekt", "GetRekt", "{22814B88-49CE-46C0-95F1-BD2B8145AE18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCode", "ConsoleApp1\AppCode.csproj", "{B6BB7484-E5E6-4A49-B822-AD859A1645D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{3CD34D66-2542-4C68-BC90-691F1E464A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CD34D66-2542-4C68-BC90-691F1E464A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CD34D66-2542-4C68-BC90-691F1E464A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BB7484-E5E6-4A49-B822-AD859A1645D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BB7484-E5E6-4A49-B822-AD859A1645D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BB7484-E5E6-4A49-B822-AD859A1645D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BB7484-E5E6-4A49-B822-AD859A1645D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E61FD113-D0CA-454D-B0BB-6FF3DFC5E34F} = {22814B88-49CE-46C0-95F1-BD2B8145AE18}
 		{3CD34D66-2542-4C68-BC90-691F1E464A4F} = {22814B88-49CE-46C0-95F1-BD2B8145AE18}
+		{B6BB7484-E5E6-4A49-B822-AD859A1645D2} = {22814B88-49CE-46C0-95F1-BD2B8145AE18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58CD211B-1519-407B-82A3-F15FEEE0AB57}
