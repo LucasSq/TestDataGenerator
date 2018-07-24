@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestDataGenerator
+namespace AppCode
 {
     public class DataValidator
     {
@@ -13,10 +13,9 @@ namespace TestDataGenerator
         public ValidationResult ValidateStringField(String field, String fieldname)
         {
             ValidationResult validationResult = new ValidationResult();
-
-            Constraintslist constraintslist = new Constraintslist();
+            ConstraintsFinder constraintsFinder = new ConstraintsFinder();
             Constraints constraints = new Constraints();
-            constraints = constraintslist.constraints.Find(item => item.fieldname == fieldname);
+            constraints = constraintsFinder.FindConstraints(fieldname);
 
             int minlength = 3;
             int maxlength = constraints.maxlength;

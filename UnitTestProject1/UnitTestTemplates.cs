@@ -11,11 +11,11 @@ namespace UnitTestProject1
         public void TestMaxEdgeCases(int maxlength, string fieldname)
         {
 
-            DataValidator datavalidator1 = new DataValidator();
+            AppCode.DataValidator datavalidator1 = new AppCode.DataValidator();
             DataGenerator datagenerator1 = new DataGenerator();
             List<TestData> testData = datagenerator1.GenerateStringData(maxlength);
 
-            ValidationResult validationResult = new ValidationResult();
+            AppCode.ValidationResult validationResult = new AppCode.ValidationResult();
             int count = 0;
 
             foreach (var item in testData)

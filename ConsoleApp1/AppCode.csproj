@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConstraintsFinder.cs" />
     <Compile Include="Constraints.cs" />
     <Compile Include="ConstraintsList.cs" />
     <Compile Include="DataValidator.cs" />
