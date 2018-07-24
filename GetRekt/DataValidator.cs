@@ -13,6 +13,7 @@ namespace TestDataGenerator
         public ValidationResult ValidateStringField(String field, String fieldname)
         {
             ValidationResult validationResult = new ValidationResult();
+
             Constraintslist constraintslist = new Constraintslist();
             Constraints constraints = new Constraints();
             constraints = constraintslist.constraints.Find(item => item.fieldname == fieldname);

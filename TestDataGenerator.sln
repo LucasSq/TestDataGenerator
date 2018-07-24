@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataGenerator", "GetRek
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{3CD34D66-2542-4C68-BC90-691F1E464A4F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestCode", "TestCode", "{22814B88-49CE-46C0-95F1-BD2B8145AE18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppCode", "AppCode", "{DB197673-77A2-4316-B760-7A788623B40F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCode", "ConsoleApp5\AppCode.csproj", "{2C931351-4B59-437D-A80D-8A04589EE06A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,18 @@ Global
 		{3CD34D66-2542-4C68-BC90-691F1E464A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CD34D66-2542-4C68-BC90-691F1E464A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CD34D66-2542-4C68-BC90-691F1E464A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C931351-4B59-437D-A80D-8A04589EE06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C931351-4B59-437D-A80D-8A04589EE06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C931351-4B59-437D-A80D-8A04589EE06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C931351-4B59-437D-A80D-8A04589EE06A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E61FD113-D0CA-454D-B0BB-6FF3DFC5E34F} = {22814B88-49CE-46C0-95F1-BD2B8145AE18}
+		{3CD34D66-2542-4C68-BC90-691F1E464A4F} = {22814B88-49CE-46C0-95F1-BD2B8145AE18}
+		{2C931351-4B59-437D-A80D-8A04589EE06A} = {DB197673-77A2-4316-B760-7A788623B40F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58CD211B-1519-407B-82A3-F15FEEE0AB57}
