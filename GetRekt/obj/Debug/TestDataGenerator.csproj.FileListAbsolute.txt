@@ -12,7 +12,3 @@ C:\Users\xt_lsikkin\source\repos\TestDataGenerator\GetRekt\obj\Debug\TestDataGen
 C:\Users\xt_lsikkin\source\repos\TestDataGenerator\GetRekt\obj\Debug\GetRekt.exe
 C:\Users\xt_lsikkin\source\repos\TestDataGenerator\GetRekt\obj\Debug\GetRekt.pdb
 C:\Users\xt_lsikkin\source\repos\TestDataGenerator\GetRekt\obj\Debug\TestDataGenerator.csprojAssemblyReference.cache
-C:\Users\xt_lsikkin\source\repos\TestDataGenerator\GetRekt\bin\Debug\AppCode.exe
-C:\Users\xt_lsikkin\source\repos\TestDataGenerator\GetRekt\bin\Debug\AppCode.pdb
-C:\Users\xt_lsikkin\source\repos\TestDataGenerator\GetRekt\bin\Debug\AppCode.exe.config
-C:\Users\xt_lsikkin\source\repos\TestDataGenerator\GetRekt\obj\Debug\TestDataGenerator.csproj.CopyComplete

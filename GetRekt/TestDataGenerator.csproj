@@ -55,11 +55,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp5\AppCode.csproj">
-      <Project>{2c931351-4b59-437d-a80d-8a04589ee06a}</Project>
-      <Name>AppCode</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
